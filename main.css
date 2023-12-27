@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:ital@1&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    color: white;
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 3rem;
+}
+.container{
+    width: 400px;
+    min-height: 200px;
+    background-color: #862b00;
+}
+.header{
+    display:flex ;
+    justify-content: flex-start;
+    align-items: center ;
+    border-bottom: 1px solid white;
+}
+
+.header img{
+    width: 50px;
+    margin: 0 10px;
+}
+.content {
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+a :hover{
+    color: lightblue;
+}
